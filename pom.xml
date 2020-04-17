@@ -27,6 +27,19 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+           
+    <repository>
+        <id>maven-releases</id>
+        <name>Releases</name>
+        <url>http://lican10143c.mylabserver.com:8081/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <name>Snapshots</name>
+        <url>http://lican10143c.mylabserver.com:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+           
   </distributionManagement>
 
   <build>
